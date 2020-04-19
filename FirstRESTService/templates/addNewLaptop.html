@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add a new Laptop here.</title>
+    <link rel="stylesheet" type="text/css" href="/static/main.css">
+</head>
+<body>
+    <div>
+        <h3>Enter details of new laptop - </h3>
+        <br>
+        <form method="POST" action="/addLaptop">
+            Brand name : <input type="text" name="brand_name" placeholder="e.g. Dell"><br>
+            Processor : <input type="text" name="processor" placeholder="e.g. I7"><br>
+            RAM : <input type="text" name="ram" placeholder="in GB"><br>
+            Screen Size : <input type="text" name="screen_size" placeholder="in inches"><br><br>
+
+            <input type="submit" value="Add Laptop">
+        </form>
+    </div>
+</body>
+</html>
